@@ -1,20 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,jupyternotebooks,rust,vim,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,jupyternotebooks,rust,vim,windows
-
-### JupyterNotebooks ###
-# gitignore template for Jupyter Notebooks
-# website: http://jupyter.org/
-
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# IPython
-profile_default/
-ipython_config.py
-
-# Remove previous ipynb_checkpoints
-#   git rm -r .ipynb_checkpoints/
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,rust,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,rust,windows
 
 ### macOS ###
 # General
@@ -63,27 +49,6 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
-
-### Vim ###
-# Swap
-[._]*.s[a-v][a-z]
-!*.svg  # comment out if you don't need vector files
-[._]*.sw[a-p]
-[._]s[a-rt-v][a-z]
-[._]ss[a-gi-z]
-[._]sw[a-p]
-
-# Session
-Session.vim
-Sessionx.vim
-
-# Temporary
-.netrwhist
-*~
-# Auto-generated tag files
-tags
-# Persistent undo
-[._]*.un~
 
 ### VisualStudioCode ###
 .vscode/*
@@ -136,7 +101,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,jupyternotebooks,rust,vim,windows
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,rust,windows
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
